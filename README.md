@@ -1,20 +1,26 @@
 Los códigos creados permiten observar la señal obtenida del sofware PHYSIONET, la cual es electroencefalografía (EEG), que en este caso mide por un método no invasivo los niveles de activación de distintas zonas del cerebro, evaluando  la actividad del cerebro. 
 
+1. En primer lugar, se obtuvo un sistema y la señal para obtener lo siguiente;
 
+      1.1. La convolución usando sumatorias  a mano, lo cual se evidencia               en....... con este sistema y señal incial  
+      1.2. Se obtuvo la representación gráfica y secuencial a mano, esto                para identificar.........
+      1.3. Se realizó el mismo procedimiento del item 1.1 pero esta vez                   usando python, lo que a su vez permite realizar una comparación.
+      1.4. En este item, se obtuvo una representación gráfica y secuencial              en phyton, con el fin de..........
 
+      
+2. ⁠En segundo lugar, se tenían dos señales, donde se observó si tenian correlación, y a su vez se determinó la representación gráfica y secuencial, lo que se visualiza en el archivo .......
 
-1. 
-   
-2. ⁠En segundo lugar,
+Es necesario comprender estos conceptos  de estadísticos descriptivos antes de continuar;
+   - Los estadisticos descriptivos; se dividen en 
 
    
 3.Por último, se realizó la descarga de la señal del software physionet. En github se evidencian los dos archivos del mismo: .dat y .hea, donde se realizó lo siguiente;
 
-3.1. 
+   3.1. Se caracterizó la señal en función del tiempo, donde a su vez se calcularon los estadisticos descriptivos, de lo cual podemos evidenciar que.....
 
-3.2.
+   3.2.
 
-3.3
+   3.3
 
 3.4. Se analizaron los estadistícos descriptivos en función a la frecuencia, teniendo en cuenta que;
 
