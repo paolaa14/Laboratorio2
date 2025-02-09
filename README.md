@@ -18,9 +18,10 @@ Es necesario comprender estos conceptos  de estadísticos descriptivos antes de 
 
    3.1. Se caracterizó la señal en función del tiempo, donde a su vez se calcularon los estadisticos descriptivos, de lo cual podemos evidenciar que.....
 
-   3.2.
+   3.2. La señal en cuanto a la clasificación es;
+   
 
-   3.3
+   3.3. Aplicando la transformada de fourier de la señal, se graficó la transformada y la densidad espectral.....
 
 3.4. Se analizaron los estadistícos descriptivos en función a la frecuencia, teniendo en cuenta que;
 
