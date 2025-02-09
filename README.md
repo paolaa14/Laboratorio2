@@ -1,2 +1,1 @@
-# Laboratorio2
-este lab
+En este laboratorio 
