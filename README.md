@@ -1,5 +1,17 @@
 Los códigos creados permiten observar la señal obtenida del sofware PHYSIONET, la cual es electroencefalografía (EEG), que en este caso mide por un método no invasivo los niveles de activación de distintas zonas del cerebro, evaluando  la actividad del cerebro. 
 
+Es importante mencionar que para correr el codigo y que funcione correctamente se deben descargar ciertas cosas, inicialmente pip install numpy matplotlib wfdb scipy
+
+ciertas librerias;
+
+- import numpy as np
+- import matplotlib.pyplot as plt
+- import wfdb
+- import matplotlib.pyplot as plt
+- import numpy as np
+- from scipy.fftpack import fft
+- from scipy.signal import welch
+
 1. En primer lugar, se obtuvo un sistema y la señal para obtener lo siguiente;
 
       1.1. La convolución usando sumatorias  a mano, lo cual se evidencia               en....... con este sistema y señal incial  
