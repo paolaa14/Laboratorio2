@@ -40,8 +40,6 @@ De la misma manera, podemos evidenciar que el sistema h(n), actúo como un filtr
 
 
 
-
-
 Los códigos creados en esta parte del proyecto permiten observar la señal obtenida del sofware PHYSIONET, la cual es electroencefalografía (EEG), que en este caso mide por un método no invasivo los niveles de activación de distintas zonas del cerebro, evaluando  la actividad del cerebro. 
 
 Se realizan distintas caracterizaciones de la señal, cálculos estadísticos y una ampliación de un segmento específico para un análisis más detallado y más preciso. 
@@ -76,14 +74,14 @@ En esta parte se importaron las librerias que se descargaron anteriormente, y a 
 
 Posterior a esto, se realiza la gráfica de la convoluión, con el fin de observar similitudes o diferencias con el proceso realizado a mano.
 
- 1.4. En este item, se obtuvo una representación gráfica y secuencial              en phyton, 
+ 1.4. En este item, se obtuvo una representación gráfica y secuencial en phyton, 
 
 
 
 <img width="494" alt="Figure 2025-02-12 213338 (31)" src="https://github.com/user-attachments/assets/4764fc66-18f5-40c7-be40-f21aecfa1a23" />
 
 
-
+En cuanto al análisis, ambas gráficas muestra lo mismo, es decir una evolución progresiva de los valores, y el pico es en el mismo punto, este método de phyton nos sirve para obtener más precisión ya que python usa valores precisos, y no hay posibles errores de imprecisión como lo puede haber en el caso de la gráfica a mano, de esta forma logramos observar que a pesar de usar dos métodos distintos, se puede comparar, ya que la diferencia entre ambas gráficas no debería ser muy notoria, puesto que es lo mismo. 
 
 
 
