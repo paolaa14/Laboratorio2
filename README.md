@@ -139,6 +139,10 @@ Posterior a esta verificación del programador que se va a implementar, se proce
 
    3.1. Se caracterizó la señal en función del tiempo, donde a su vez se calcularon los estadisticos descriptivos, de lo cual podemos evidenciar que.....
 
+<img width="567" alt="Captura de pantalla 2025-02-12 a la(s) 10 30 04 p m" src="https://github.com/user-attachments/assets/239539ac-2208-4448-96dd-05e678444470" />
+
+
+
    3.2. La señal en cuanto a la clasificación es;
    
 
