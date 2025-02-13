@@ -24,7 +24,11 @@ Obteniendo esta matriz, se suman los valores en diagonal, que se encuentran resl
    1.2. Se obtuvo la representación gráfica y secuencial a mano, esto para identificar la evolución de la señal en el tiempo, observando picos, crecimientos, o disminución en los patrones de la señal resultante, a su vez podemos ver como h(n), afecta a x(n), a su vez se obtiene la representacipon gráfica de la señal x(n) y el sistema h(n).
 
 
-   AQUIIIIIIIIIII LA IMAGEN A MANO
+  
+![WhatsApp Image 2025-02-12 at 22 04 51](https://github.com/user-attachments/assets/bd256224-8ca0-4261-9e88-5e8145e7ffed)
+
+
+![WhatsApp Image 2025-02-12 at 22 05 17](https://github.com/user-attachments/assets/ee5f6b7e-5ed5-43f6-be34-572639ff1f63)
 
 
 
