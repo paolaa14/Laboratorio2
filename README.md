@@ -5,10 +5,7 @@ En este proyecto se realizan distintos cálculos en un determinado sistema, al c
       1.1. De manera inicial, vamos a explicar como realizar la convolución de el sistema h(n) y la señal x(n), donde se aplico la fórmula de la convolución discreta, donde h (n) tiene 7 valores y x(n) tiene 10 valores, posterior para sacar la señal y (n )resultante, se tiene que representar la operación como el producto de los polinomios para ver como se distribuyen los términos, es decir, para construir la parte de la ecuación de x(n), se nombró que el índice en la secuencia es el exponente del término, a su vez, para la parte de h(n)se realizó el mismo procedimiento anterior, lo cual se evidenciará en la imagen a continuación;
 
 
-
-
-
-   IMAGEN 1, PARTE INCIAL PAOLAAA A MANO
+![WhatsApp Image 2025-02-12 at 21 25 01](https://github.com/user-attachments/assets/75350738-d4b7-494f-9b9f-8b97f255a1d9)
 
 
 
@@ -16,8 +13,7 @@ Continuando, se multiplicaron los dos polinomios obtenidos anteriormente,lo que 
 
 
 
-IMAGEN 2 PAOLA A MANOOOOOOOOOOOOOOOOOO
-
+![WhatsApp Image 2025-02-12 at 21 28 21](https://github.com/user-attachments/assets/8b4ee8e0-2ed9-4dca-86a1-fd36b2f528b5)
 
 
 
