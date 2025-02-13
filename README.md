@@ -115,19 +115,22 @@ En cuanto al código de este punto, se importan las librerias de la misma forma 
 
 
 
--la señal de EEG completa
-
-
-la otra
+-la señal de EEG completa representa una señal en el dominio del tiempo con un gran número de muestras, se observa un comportamiento regular, con algunos picos inusuales (posibles artefactos o eventos neuronales).
 
 
 
-
-
+se presenta en milivoltios (mV) en el eje vertical y el tiempo en segundos en el eje horizontal.
 
 <img width="719" alt="Figure 2025-02-12 222631 (0)" src="https://github.com/user-attachments/assets/9de48038-cafc-40db-8410-a0010976eb63" />
 
+
+
+- Sección de la señal EEG, es una muestra una sección específica de la señal para analizar más detalles, se observa un patrón oscilatorio con variaciones de amplitud.
+
 <img width="729" alt="Figure 2025-02-12 224033 (1)" src="https://github.com/user-attachments/assets/776a49d7-d8c6-4c3e-a49b-7f161a38798a" />
+
+
+
 
 
 
