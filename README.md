@@ -165,8 +165,10 @@ Se realizan distintas caracterizaciones de la señal y una ampliación de un seg
 
    3.3. Aplicando la transformada de fourier de la señal, se graficó la transformada y la densidad espectral.....
 
-   <img width="728" alt="Figure 2025-02-12 222631 (3)" src="https://github.com/user-attachments/assets/afcfeefc-93af-46a0-910a-77c04e11e93b" />
 
+<img width="728" alt="Figure 2025-02-12 234301" src="https://github.com/user-attachments/assets/8c975773-6429-4998-8520-82a9e5dcd89b" />
+
+  
 <img width="727" alt="Figure 2025-02-12 222631 (2)" src="https://github.com/user-attachments/assets/add3356d-a301-443f-a186-ca225b7a1c2a" />
 
 
