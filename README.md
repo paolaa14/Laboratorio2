@@ -37,27 +37,12 @@ De la misma manera, podemos evidenciar que el sistema h(n), actúo como un filtr
 
 
 
-   
-   1.3. Se realizó el mismo procedimiento del item 1.1 pero esta vez usando python, lo que a su vez permite realizar una comparación y observar las dierencias o similitudes.
-
-
-
-<img width="584" alt="Captura de pantalla 2025-02-12 a la(s) 7 25 13 p m" src="https://github.com/user-attachments/assets/bd26fb9c-2acf-4650-9d6c-f1e24629a964" />
 
 
 
 
 
- 1.4. En este item, se obtuvo una representación gráfica y secuencial              en phyton, con el fin de..........
-
-
-
-<img width="494" alt="Figure 2025-02-12 213338 (31)" src="https://github.com/user-attachments/assets/4764fc66-18f5-40c7-be40-f21aecfa1a23" />
-
-
-
-
-Los códigos creados en este proyecto permiten observar la señal obtenida del sofware PHYSIONET, la cual es electroencefalografía (EEG), que en este caso mide por un método no invasivo los niveles de activación de distintas zonas del cerebro, evaluando  la actividad del cerebro. 
+Los códigos creados en esta parte del proyecto permiten observar la señal obtenida del sofware PHYSIONET, la cual es electroencefalografía (EEG), que en este caso mide por un método no invasivo los niveles de activación de distintas zonas del cerebro, evaluando  la actividad del cerebro. 
 
 Se realizan distintas caracterizaciones de la señal, cálculos estadísticos y una ampliación de un segmento específico para un análisis más detallado y más preciso. 
 
@@ -74,6 +59,30 @@ Es importante mencionar que para correr el codigo y que funcione correctamente s
             -  from scipy.signal import welch ; on esta se estima la 
                densidad espectral de potencia, también detecta patrones de 
                actividad cerebal, esto lo veremos más adelante
+
+
+
+
+   1.3. Se realizó el mismo procedimiento del item 1.1 pero esta vez usando python, lo que a su vez permite realizar una comparación y observar las dierencias o similitudes.
+ 
+
+En esta parte se importaron las librerias que se descargaron anteriormente, y a su vez se definieron las señales donde , x (n) es la señal de entrada y h (n) es la repsuesta al impulso, con esto se implemento una función de phyton para calcular la convolución ¨y_n = np.convolve(x_n, h_n)¨ y de esa forma se muestra la convolución resultante, lo cual se evidencia a continuación:
+
+
+
+<img width="584" alt="Captura de pantalla 2025-02-12 a la(s) 7 25 13 p m" src="https://github.com/user-attachments/assets/bd26fb9c-2acf-4650-9d6c-f1e24629a964" />
+
+
+
+Posterior a esto, se realiza la gráfica de la convoluión, con el fin de observar similitudes o diferencias con el proceso realizado a mano.
+
+ 1.4. En este item, se obtuvo una representación gráfica y secuencial              en phyton, 
+
+
+
+<img width="494" alt="Figure 2025-02-12 213338 (31)" src="https://github.com/user-attachments/assets/4764fc66-18f5-40c7-be40-f21aecfa1a23" />
+
+
 
 
 
