@@ -43,8 +43,9 @@ Para obtener la gráfica de la señal resultante de la convolución y(n), tomé 
 De la misma manera, podemos evidenciar que el sistema h(n), actúo como un filtro o respuesta impulso, ya que si h( n)tiene cierto patrón se reflejará directamente en y (n), donde se evidencia como el sistema reacciona a una entrada básica (un pulso o puede ser una delta dirac (delta dirac es una entrada impulso)), a su vez, la gráfica muestra una señal transitoria que quiere decir que la convolución genera un crecimiento progresivo. 
 
 
+Antes de continuar se debe aclarar;
 
-Es importante mencionar que para correr el codigo y que funcione correctamente se deben descargar ciertas cosas, inicialmente en la consola de spyder se deben descargar  librerías de la siguiente manera; pip install numpy matplotlib wfdb scipy, estas son para;
+Para correr el codigo y que funcione correctamente se deben descargar ciertas cosas, inicialmente en la consola de spyder se deben descargar  librerías de la siguiente manera; pip install numpy matplotlib wfdb scipy, estas son para;
 
 - import numpy as np: es para que permita correr cálculos númericos y arrays en caso de tenerlos.
 - import matplotlib.pyplot as plt :permite visualizar los datos
