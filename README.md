@@ -131,12 +131,21 @@ Se verifica la funcinalidad del pyhton, y se procederá a descargar la señal co
 
 3.Por último, se realizó la descarga de la señal del software physionet. En github se evidencian los dos archivos del mis2mo: .dat y .hea, donde se realizó lo siguiente;
 
-   3.1. Se caracterizó la señal en función del tiempo, donde a su vez se calcularon los estadisticos descriptivos, de lo cual podemos evidenciar que.....
-
-   
-Se realizan distintas caracterizaciones de la señal, cálculos estadísticos y una ampliación de un segmento específico para un análisis más detallado y más preciso. 
-
-
+   3.1. Se caracterizó la señal en función del tiempo, donde a su vez se calcularon los estadisticos descriptivos, de lo cual podemos evidenciar que;
+   - Frecuencia de muestreo: 250 Hz
+      Lo que quiere decir, que se registro en una velocidad de 250 muestras       por segundo, y si se tiene una frecuencia de muestreo alta se ven los       detalles más precisos.
+   - Media: 0.0988658
+     En cuanto a la media, es el valor promedio de la señal respecto al          tiempo, y si se tiene un valor cercano es que la señal está oscila          sobre este punto sin variar de una forma muy grande.
+   - Mediana: 0.0
+     Indica el valor del centro de la señal, y si es 0, significa que los        datos poseen un equilibrio o balance.
+   - Desviación estándar: 0.145968
+     Esta mide la dispersión de los datos teniendo en cuenta la media, y si      la desviación es baja quiere decir que están los datos más cerca del        promedio, es decir que está estable.
+   - Valor mínimo: -7.08
+     Como su nombre lo indica, es el valor mas mínimo, que alcanza la señal      en el tiempo y si es muy bajo en comparación con la media es que hay        anomalías.
+   - Valor máximo: 7.575
+     Es el punto más alto, y la señal tiene un rango de aproximadamente          14.65 unidades, esto da una idea de la amplitud.
+     
+Esto se evidencia en la imagen a continuación;
 
 <img width="547" alt="Captura de pantalla 2025-02-12 a la(s) 11 03 37 p m" src="https://github.com/user-attachments/assets/07d06115-1e84-42a3-b231-360eff3da362" />
 
@@ -145,6 +154,9 @@ Se realizan distintas caracterizaciones de la señal, cálculos estadísticos y 
 
    3.2. La señal en cuanto a la clasificación es;
    
+
+Se realizan distintas caracterizaciones de la señal, cálculos estadísticos y una ampliación de un segmento específico para un análisis más detallado y más preciso. 
+
 
    3.3. Aplicando la transformada de fourier de la señal, se graficó la transformada y la densidad espectral.....
 
