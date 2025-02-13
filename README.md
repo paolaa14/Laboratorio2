@@ -83,10 +83,15 @@ Posterior a esto, se realiza la gráfica de la convoluión, con el fin de observ
 
  1.4. En este item, se obtuvo una representación gráfica y secuencial en phyton de la señal resultante de la convolución y (n), y  el sistema h (n) y la señal x (n); 
 
-AQUI LA QUE HICISTE EN PYHTON
 
-<img width="494" alt="Figure 2025-02-12 213338 (31)" src="https://github.com/user-attachments/assets/4764fc66-18f5-40c7-be40-f21aecfa1a23" />
 
+<img width="488" alt="Figure 2025-02-12 220304 (0)" src="https://github.com/user-attachments/assets/9dc64ea7-bd92-4376-a5b3-a13c4b5e1df0" />
+
+
+<img width="488" alt="Figure 2025-02-12 220304 (1)" src="https://github.com/user-attachments/assets/56a281cd-5b20-4c16-bdd3-d6baceab1f73" />
+
+
+<img width="606" alt="Figure 2025-02-12 220304 (2)" src="https://github.com/user-attachments/assets/d442258a-8b17-4691-ae9e-62a4dda3a182" />
 
 En cuanto al análisis, ambas gráficas muestra lo mismo, es decir una evolución progresiva de los valores, y el pico es en el mismo punto, este método de phyton nos sirve para obtener más precisión ya que python usa valores precisos, y no hay posibles errores de imprecisión como lo puede haber en el caso de la gráfica a mano, de esta forma logramos observar que a pesar de usar dos métodos distintos, se puede comparar, ya que la diferencia entre ambas gráficas no debería ser muy notoria, puesto que es lo mismo. 
 
