@@ -127,7 +127,7 @@ la otra
 
 <img width="719" alt="Figure 2025-02-12 222631 (0)" src="https://github.com/user-attachments/assets/9de48038-cafc-40db-8410-a0010976eb63" />
 
-<img width="729" alt="Figure 2025-02-12 222631 (1)" src="https://github.com/user-attachments/assets/efa04ba7-58d5-4aca-8cb7-21719b41f500" />
+<img width="729" alt="Figure 2025-02-12 224033 (1)" src="https://github.com/user-attachments/assets/776a49d7-d8c6-4c3e-a49b-7f161a38798a" />
 
 
 
