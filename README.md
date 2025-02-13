@@ -42,6 +42,7 @@ De la misma manera, podemos evidenciar que el sistema h(n), actúo como un filtr
 
 
 AQUIIIIIIIIIIIIIIIII
+<img width="584" alt="Captura de pantalla 2025-02-12 a la(s) 7 25 13 p m" src="https://github.com/user-attachments/assets/bd26fb9c-2acf-4650-9d6c-f1e24629a964" />
 
 
 
