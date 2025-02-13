@@ -125,11 +125,11 @@ Los códigos creados en esta parte del proyecto permiten observar la señal obte
 El código carga una señal EMG desde un sofware llamado pyhsionet, donde se busca la parte de ¨data¨,  y se busca la señal a evdienciar que en este caso es EEG, este ejecuta distintos archivos, se debe buscar especificamente el .hea y .data del mismo nombre (ejemplo; EEG-1.hea y EEG-1.data), para posterior, importarla y visualizarla  en un programador llamado pyhton (spyder), que permitira hacer el cálculo de estadísticos importantes como la media, desviación estándar y coeficiente de variación, a su vez se obtiene el gráfico secuencial de la convolución .
 
 
-Se verifica la funcinalidad del pyhton, y se procederá a descargar la señal como se mencionó anteriormente, asegurandose que tengan el mismo nombre como ya se ejemplificó, y de esta forma se guarda en un archivo que se encuentre en la misma carpeta de el script que en este caso es llamado lab2,y  ejecuta el script de la siguiente forma;  python analisis_emg.py. Para continuar, se interpretan los resultados obtenidos de esto;
+Se verifica la funcinalidad del pyhton, y se procederá a descargar la señal como se mencionó anteriormente, asegurandose que tengan el mismo nombre como ya se ejemplificó, y de esta forma se guarda en un archivo que se encuentre en la misma carpeta de el script que en este caso es llamado lab2,y  ejecuta el script de la siguiente forma;  python lab2 Para continuar, se interpretan los resultados obtenidos de esto;
 
 
-   
-3.Por último, se realizó la descarga de la señal del software physionet. En github se evidencian los dos archivos del mismo: .dat y .hea, donde se realizó lo siguiente;
+
+3.Por último, se realizó la descarga de la señal del software physionet. En github se evidencian los dos archivos del mis2mo: .dat y .hea, donde se realizó lo siguiente;
 
    3.1. Se caracterizó la señal en función del tiempo, donde a su vez se calcularon los estadisticos descriptivos, de lo cual podemos evidenciar que.....
 
@@ -137,10 +137,6 @@ Se verifica la funcinalidad del pyhton, y se procederá a descargar la señal co
 Se realizan distintas caracterizaciones de la señal, cálculos estadísticos y una ampliación de un segmento específico para un análisis más detallado y más preciso. 
 
 
-   Media: es una herramienta de estadística esencial, ya que esta indica el promedio que se obtiene al dividir la suma del total de los datos que se tengan entre el total de los mismos, de manera similar, esta proporciona un punto de equilibrio en la distribución de llos diferentes datos.
-
-   
-• Desviación estándar ; esta permite medir la dispersión en el conjunto de datos que se este estudiando, y a su vez, se utiliza simultáneamente con la media para determinar los distintos intervalos estadísticos.
 
 <img width="547" alt="Captura de pantalla 2025-02-12 a la(s) 11 03 37 p m" src="https://github.com/user-attachments/assets/07d06115-1e84-42a3-b231-360eff3da362" />
 
