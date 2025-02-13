@@ -21,7 +21,10 @@ Obteniendo esta matriz, se suman los valores en diagonal, que se encuentran resl
 
 
 
-   1.2. Se obtuvo la representación gráfica y secuencial a mano, esto para identificar la evolución de la señal en el tiempo, observando picos, crecimientos, o disminución en los patrones de la señal resultante, a su vez podemos ver como h(n), afecta a x(n), 
+   1.2. Se obtuvo la representación gráfica y secuencial a mano, esto para identificar la evolución de la señal en el tiempo, observando picos, crecimientos, o disminución en los patrones de la señal resultante, a su vez podemos ver como h(n), afecta a x(n), a su vez se obtiene la representacipon gráfica de la señal x(n) y el sistema h(n).
+
+
+   AQUIIIIIIIIIII LA IMAGEN A MANO
 
 
 
@@ -74,9 +77,9 @@ En esta parte se importaron las librerias que se descargaron anteriormente, y a 
 
 Posterior a esto, se realiza la gráfica de la convoluión, con el fin de observar similitudes o diferencias con el proceso realizado a mano.
 
- 1.4. En este item, se obtuvo una representación gráfica y secuencial en phyton, 
+ 1.4. En este item, se obtuvo una representación gráfica y secuencial en phyton de la señal resultante de la convolución y (n), y  el sistema h (n) y la señal x (n); 
 
-
+AQUI LA QUE HICISTE EN PYHTON
 
 <img width="494" alt="Figure 2025-02-12 213338 (31)" src="https://github.com/user-attachments/assets/4764fc66-18f5-40c7-be40-f21aecfa1a23" />
 
