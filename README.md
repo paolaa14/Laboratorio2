@@ -142,7 +142,8 @@ Se realizan distintas caracterizaciones de la señal, cálculos estadísticos y 
    
 • Desviación estándar ; esta permite medir la dispersión en el conjunto de datos que se este estudiando, y a su vez, se utiliza simultáneamente con la media para determinar los distintos intervalos estadísticos.
 
-<img width="567" alt="Captura de pantalla 2025-02-12 a la(s) 10 30 04 p m" src="https://github.com/user-attachments/assets/239539ac-2208-4448-96dd-05e678444470" />
+<img width="547" alt="Captura de pantalla 2025-02-12 a la(s) 11 03 37 p m" src="https://github.com/user-attachments/assets/07d06115-1e84-42a3-b231-360eff3da362" />
+
 
 
 
