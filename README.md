@@ -1,16 +1,26 @@
-Los códigos creados permiten observar la señal obtenida del sofware PHYSIONET, la cual es electroencefalografía (EEG), que en este caso mide por un método no invasivo los niveles de activación de distintas zonas del cerebro, evaluando  la actividad del cerebro. 
+Los códigos creados en este proyecto permiten observar la señal obtenida del sofware PHYSIONET, la cual es electroencefalografía (EEG), que en este caso mide por un método no invasivo los niveles de activación de distintas zonas del cerebro, evaluando  la actividad del cerebro. 
 
-Es importante mencionar que para correr el codigo y que funcione correctamente se deben descargar ciertas cosas, inicialmente pip install numpy matplotlib wfdb scipy
+Se realizan distintas caracterizaciones de la señal, cálculos estadísticos y una ampliación de un segmento específico para un análisis más detallado y más preciso. 
 
-ciertas librerias;
+El código carga una señal EMG desde un spfware llamado pyhsionet, donde se busca la parte de ¨data¨,  y se busca la señal a evdienciar que en este caso es EEG, este ejecuta distintos archivos, se debe buscar especificamente el .hea y .data del mismo nombre (ejemplo; EEG-1.hea y EEG-1.data), para posterior, importarla y visualizarla  en un programador llamado pyhton (spyder), que permitira hacer el cálculo de estadísticos importantes como la media, desviación estándar y coeficiente de variación, a su vez se obtiene el gráfico secuencial de la convolución .
 
-- import numpy as np
-- import matplotlib.pyplot as plt
-- import wfdb
-- import matplotlib.pyplot as plt
-- import numpy as np
-- from scipy.fftpack import fft
-- from scipy.signal import welch
+
+Es importante mencionar que para correr el codigo y que funcione correctamente se deben descargar ciertas cosas, inicialmente en barra de herramientas de windows se busca la terminal, para lograr descargar ;pip install numpy matplotlib wfdb scipy, posterior a esto se deben  implementar ciertas librerias;
+
+- import numpy as np: es para que permita correr cálculos númericos y arrays en caso de tenerlos.
+- import matplotlib.pyplot as plt :permite visualizar los datos
+- import wfdb ; esta va a leer y a su vez usar las señales fisiológicas que en este caso es una EEG para implementarlo en un formato estándar.
+- Scipy ; es para la parte estadistica más avazada que incluye ;
+              - from scipy.fftpack import fft; hace la transformada de                       fourier de una forma rápida , y se usa para analizar en                      este caso la señal eeg. 
+            -  from scipy.signal import welch ; on esta se estima la 
+               densidad espectral de potencia, también detecta patrones de 
+               actividad cerebal, esto lo veremos más adelante
+
+
+
+
+Posterior a esta verificación del programador que se va a implementar, se procederá a descargar la señal como se mencionó anteriormente, asegurandose que tengan el mismo nombre como ya se ejemplificó, y de esta forma se guarda en un archivo (por ejemplo con nombre; analisis_emg.py)que se encuentre en la misma carpeta de el script y  ejecuta el script de la siguiente forma;  python analisis_emg.py. Para continuar, se interpretan los resultados obtenidos de esto;
+
 
 1. En primer lugar, se obtuvo un sistema y la señal para obtener lo siguiente;
 
