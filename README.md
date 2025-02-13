@@ -146,6 +146,9 @@ Posterior a esta verificación del programador que se va a implementar, se proce
 
    <img width="728" alt="Figure 2025-02-12 222631 (3)" src="https://github.com/user-attachments/assets/afcfeefc-93af-46a0-910a-77c04e11e93b" />
 
+<img width="727" alt="Figure 2025-02-12 222631 (2)" src="https://github.com/user-attachments/assets/add3356d-a301-443f-a186-ca225b7a1c2a" />
+
+
 
 3.4. Se analizaron los estadistícos descriptivos en función a la frecuencia, teniendo en cuenta que;
 
