@@ -122,14 +122,14 @@ Posible presencia de ritmos específicos (ondas alfa, beta, etc.).
 
 Los códigos creados en esta parte del proyecto permiten observar la señal obtenida del sofware PHYSIONET, la cual es electroencefalografía (EEG), que en este caso mide por un método no invasivo los niveles de activación de distintas zonas del cerebro, evaluando  la actividad del cerebro. 
 
-El código carga una señal EMG desde un sofware llamado pyhsionet, donde se busca la parte de ¨data¨,  y se busca la señal a evdienciar que en este caso es EEG, este ejecuta distintos archivos, se debe buscar especificamente el .hea y .data del mismo nombre (ejemplo; EEG-1.hea y EEG-1.data), para posterior, importarla y visualizarla  en un programador llamado pyhton (spyder), que permitira hacer el cálculo de estadísticos importantes como la media, desviación estándar y coeficiente de variación, a su vez se obtiene el gráfico secuencial de la convolución .
+El código carga una señal EMG desde un sofware llamado pyhsionet, donde se busca la parte de ¨data¨,  y se busca la señal a evdienciar que en este caso es EEG, este ejecuta distintos archivos, se debe buscar especificamente el .hea y .data del mismo nombre (ejemplo; Slp01a.hea y  Slp01a.data), para posterior, importarla y visualizarla  en un programador llamado pyhton (spyder), que permitira hacer el cálculo de estadísticos importantes como la media, desviación estándar y coeficiente de variación, a su vez se obtiene el gráfico secuencial de la convolución .
 
 
-Se verifica la funcinalidad del pyhton, y se procederá a descargar la señal como se mencionó anteriormente, asegurandose que tengan el mismo nombre como ya se ejemplificó, y de esta forma se guarda en un archivo que se encuentre en la misma carpeta de el script que en este caso es llamado lab2,y  ejecuta el script de la siguiente forma;  python lab2 Para continuar, se interpretan los resultados obtenidos de esto;
+Se verifica la funcionalidad del pyhton, y se procederá a descargar la señal como se mencionó anteriormente, asegurandose que tengan el mismo nombre como ya se ejemplificó, y de esta forma se guarda en un archivo que se encuentre en la misma carpeta de el script que en este caso es llamado lab2,y  ejecuta el script de la siguiente forma;  python lab2 Para continuar, se interpretan los resultados obtenidos de esto;
 
 
 
-3.Por último, se realizó la descarga de la señal del software physionet. En github se evidencian los dos archivos del mis2mo: .dat y .hea, donde se realizó lo siguiente;
+3.Por último, se realizó la descarga de la señal del software physionet. En github se evidencian los dos archivos del mismo nombre: Slp01a.dat y Slp01a.hea, donde se realizó lo siguiente;
 
    3.1. Se caracterizó la señal en función del tiempo, donde a su vez se calcularon los estadisticos descriptivos, de lo cual podemos evidenciar que;
    - Frecuencia de muestreo: 250 Hz
@@ -154,12 +154,21 @@ Esto se evidencia en la imagen a continuación;
 
    3.2. La señal en cuanto a la clasificación.
 
-Se realizan distintas caracterizaciones de la señal y una ampliación de un segmento específico para un análisis más detallado y más preciso. 
-
-<img width="729" alt="Figure 2025-02-12 224033 (1)" src="https://github.com/user-attachments/assets/776a49d7-d8c6-4c3e-a49b-7f161a38798a" />
+Se realizan distintas caracterizaciones de la señal , llamada sección ampliada EEG  para un análisis más detallado y más preciso. 
 
 
-- El tipo de la señal es EEG (electroencef)
+- El tipo de la señal es EEG (electroencefalografía), la señal proviene del cerebro , se evidencian oscilaciones periodicas con picos definidos, lo que caracteriza a un EEG.
+- se identifican bandas de frecuencia específicas:
+Delta (0.5 - 4 Hz): Asociada al sueño profundo.
+Theta (4 - 8 Hz): Relacionada con somnolencia y relajación.
+Alfa (8 - 13 Hz): Presente en estados de relajación con ojos cerrados.
+Beta (13 - 30 Hz): Asociada a actividad mental y concentración.
+Gamma (>30 Hz): Relacionada con procesamiento cognitivo elevado.
+Viendo la periodicidad de la señal en la imagen, parece tener una frecuencia relativamente alta, posiblemente en el rango beta o gamma, lo que indicaría que proviene de una actividad cerebral relacionada con atención, procesamiento cognitivo o incluso respuesta a estímulos externos.
+
+- La amplitud de la señal varía entre aproximadamente -0.4 mV y 1.0 mV, o sea que hay regularidad en la parte de oscilación, y se evidencian variaciones, lo que indica normalidad ya que se tiene una señal biológica.
+
+- 
 
 
 
