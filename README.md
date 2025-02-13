@@ -81,7 +81,7 @@ En esta parte se importaron las librerias que se descargaron anteriormente, y a 
 
 Posterior a esto, se realiza la gráfica de la convoluión, con el fin de observar similitudes o diferencias con el proceso realizado a mano.
 
- 1.4. En este item, se obtuvo una representación gráfica y secuencial en phyton de la señal resultante de la convolución y (n), y  el sistema h (n) y la señal x (n); 
+ 1.4. En este item, se obtuvo una representación gráfica y secuencial en phyton de la señal resultante de la convolución y (n), y los vectores del sistema h (n) y el vetor de la señal x (n); 
 
 
 
@@ -97,16 +97,17 @@ En cuanto al análisis, ambas gráficas muestra lo mismo, es decir una evolució
 
 
 
-Posterior a esta verificación del programador que se va a implementar, se procederá a descargar la señal como se mencionó anteriormente, asegurandose que tengan el mismo nombre como ya se ejemplificó, y de esta forma se guarda en un archivo (por ejemplo con nombre; analisis_emg.py)que se encuentre en la misma carpeta de el script y  ejecuta el script de la siguiente forma;  python analisis_emg.py. Para continuar, se interpretan los resultados obtenidos de esto;
-
-
-
-
       
-2. ⁠En segundo lugar, se tenían dos señales, donde se observó si tenian correlación, y a su vez se determinó la representación gráfica y secuencial, lo que se visualiza en el archivo .......
+2. ⁠En segundo lugar, se tenían dos señales, donde se observó si tenian correlación, y a su vez se determinó la representación gráfica y secuencial, lo que se visualiza en el archivo 
 
 Es necesario comprender estos conceptos  de estadísticos descriptivos antes de continuar;
    - Los estadisticos descriptivos; se dividen en 
+
+
+
+
+
+Posterior a esta verificación del programador que se va a implementar, se procederá a descargar la señal como se mencionó anteriormente, asegurandose que tengan el mismo nombre como ya se ejemplificó, y de esta forma se guarda en un archivo (por ejemplo con nombre; analisis_emg.py)que se encuentre en la misma carpeta de el script y  ejecuta el script de la siguiente forma;  python analisis_emg.py. Para continuar, se interpretan los resultados obtenidos de esto;
 
    
 3.Por último, se realizó la descarga de la señal del software physionet. En github se evidencian los dos archivos del mismo: .dat y .hea, donde se realizó lo siguiente;
