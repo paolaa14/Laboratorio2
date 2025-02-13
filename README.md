@@ -152,10 +152,15 @@ Esto se evidencia en la imagen a continuación;
 
 
 
-   3.2. La señal en cuanto a la clasificación es;
-   
+   3.2. La señal en cuanto a la clasificación.
 
-Se realizan distintas caracterizaciones de la señal, cálculos estadísticos y una ampliación de un segmento específico para un análisis más detallado y más preciso. 
+Se realizan distintas caracterizaciones de la señal y una ampliación de un segmento específico para un análisis más detallado y más preciso. 
+
+<img width="729" alt="Figure 2025-02-12 224033 (1)" src="https://github.com/user-attachments/assets/776a49d7-d8c6-4c3e-a49b-7f161a38798a" />
+
+
+- El tipo de la señal es EEG (electroencef)
+
 
 
    3.3. Aplicando la transformada de fourier de la señal, se graficó la transformada y la densidad espectral.....
