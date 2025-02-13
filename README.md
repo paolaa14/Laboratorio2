@@ -1,3 +1,40 @@
+En este proyecto se realizan distintos cálculos en un determinado sistema, al cual se le hallará la señal resultante de la convolución implementando sumatorias, posterior se encontrará la representación gráfica y secuencial del sistema mencionado anteriormente, todo esto se hará a mano con el fin de fortalecer las bases para conocer la convolución, no obstante , simultaneamente se comparará el mismo sistema en phyton, con el fin de comparar las señales resultantes y representaciones gráficas.
+
+1. En primer lugar, se obtuvo un sistema a h[n] = {5600501} y la señal x[n] = {1013097620} para obtener lo siguiente;
+
+      1.1. De manera inicial, vamos a explicar como realizar la convolución de el sistema h(n) y la señal x(n), donde se aplico la fórmula de la convolución discreta, donde h (n) tiene 7 valores y x(n) tiene 10 valores, posterior para sacar la señal y (n )resultante, se tiene que representar la operación como el producto de los polinomios para ver como se distribuyen los términos, es decir, para construir la parte de la ecuación de x(n), se nombró que el índice en la secuencia es el exponente del término, a su vez, para la parte de h(n)se realizó el mismo procedimiento anterior, lo cual se evidenciará en la imagen a continuación;
+
+
+
+
+
+   IMAGEN 1, PARTE INCIAL PAOLAAA A MANO
+
+
+
+Continuando, se multiplicaron los dos polinomios obtenidos anteriormente,lo que se conoce en señales o algebraicamente como aplicar una convolución discreta, y para resolver esto se planteó una matriz, donde la primera fila es el sistema h(n) y la primera columna es la señal x(n), para obtener los valores internos se multiplicaron los elementos correspondientes al sistema y señal mencionados, para ejemplificar; el primer elemento de x(n) es 5, entonces cada valor de h(n) se va a multiplicar por 5 y se va colocando en la tabla, y así de la misma forma hasta acabar la matriz, por último, al obtener la tabla que se evidenciará a continuación;
+
+
+
+IMAGEN 2 PAOLA A MANOOOOOOOOOOOOOOOOOO
+
+
+
+
+
+
+
+
+
+La convolución usando sumatorias  a mano, lo cual se evidencia               en....... con este sistema y señal incial
+
+
+
+
+   1.2. Se obtuvo la representación gráfica y secuencial a mano, esto                para identificar.........
+      1.3. Se realizó el mismo procedimiento del item 1.1 pero esta vez                   usando python, lo que a su vez permite realizar una comparación.
+      1.4. En este item, se obtuvo una representación gráfica y secuencial              en phyton, con el fin de..........
+
 Los códigos creados en este proyecto permiten observar la señal obtenida del sofware PHYSIONET, la cual es electroencefalografía (EEG), que en este caso mide por un método no invasivo los niveles de activación de distintas zonas del cerebro, evaluando  la actividad del cerebro. 
 
 Se realizan distintas caracterizaciones de la señal, cálculos estadísticos y una ampliación de un segmento específico para un análisis más detallado y más preciso. 
@@ -22,12 +59,7 @@ Es importante mencionar que para correr el codigo y que funcione correctamente s
 Posterior a esta verificación del programador que se va a implementar, se procederá a descargar la señal como se mencionó anteriormente, asegurandose que tengan el mismo nombre como ya se ejemplificó, y de esta forma se guarda en un archivo (por ejemplo con nombre; analisis_emg.py)que se encuentre en la misma carpeta de el script y  ejecuta el script de la siguiente forma;  python analisis_emg.py. Para continuar, se interpretan los resultados obtenidos de esto;
 
 
-1. En primer lugar, se obtuvo un sistema y la señal para obtener lo siguiente;
 
-      1.1. La convolución usando sumatorias  a mano, lo cual se evidencia               en....... con este sistema y señal incial  
-      1.2. Se obtuvo la representación gráfica y secuencial a mano, esto                para identificar.........
-      1.3. Se realizó el mismo procedimiento del item 1.1 pero esta vez                   usando python, lo que a su vez permite realizar una comparación.
-      1.4. En este item, se obtuvo una representación gráfica y secuencial              en phyton, con el fin de..........
 
       
 2. ⁠En segundo lugar, se tenían dos señales, donde se observó si tenian correlación, y a su vez se determinó la representación gráfica y secuencial, lo que se visualiza en el archivo .......
