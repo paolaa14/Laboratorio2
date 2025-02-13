@@ -168,8 +168,6 @@ Viendo la periodicidad de la señal en la imagen, parece tener una frecuencia re
 
 - La amplitud de la señal varía entre aproximadamente -0.4 mV y 1.0 mV, o sea que hay regularidad en la parte de oscilación, y se evidencian variaciones, lo que indica normalidad ya que se tiene una señal biológica.
 
-- 
-
 
 
    3.3. Aplicando la transformada de fourier de la señal, se graficó la transformada y la densidad espectral.....
