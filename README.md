@@ -111,7 +111,7 @@ Es necesario comprender estos conceptos  de estadísticos descriptivos antes de 
 
 
 
-En cuanto al código de este punto, se importan las librerias de la misma forma que se mencionó anteriormente, y se establecieron los parámetros de la señal ,la frecuencia de muestreo (cuántas muestras por segundo se toman.), el periodo de muestreo(intervalo entre muestras.), y el vector de tiempo discreto (n rango de valores de 0 a 8 (9 muestras), indicando los instantes de muestreo), en este caso ambas señales tienen la misma frecuencia y se desfasann en 90 grados 
+En cuanto al código de este punto, se importan las librerias de la misma forma que se mencionó anteriormente, y se establecieron los parámetros de la señal ,la frecuencia de muestreo (cuántas muestras por segundo se toman.), el periodo de muestreo(intervalo entre muestras.), y el vector de tiempo discreto (n rango de valores de 0 a 8 (9 muestras), indicando los instantes de muestreo), en este caso ambas señales tienen la misma frecuencia y se desfasann en 90 grados (ya que el seno y el coseno son funciones ortogonales), se graficaron la correlacion de las señales 
 
 
 
@@ -138,6 +138,12 @@ Posterior a esta verificación del programador que se va a implementar, se proce
 3.Por último, se realizó la descarga de la señal del software physionet. En github se evidencian los dos archivos del mismo: .dat y .hea, donde se realizó lo siguiente;
 
    3.1. Se caracterizó la señal en función del tiempo, donde a su vez se calcularon los estadisticos descriptivos, de lo cual podemos evidenciar que.....
+
+
+   Media: es una herramienta de estadística esencial, ya que esta indica el promedio que se obtiene al dividir la suma del total de los datos que se tengan entre el total de los mismos, de manera similar, esta proporciona un punto de equilibrio en la distribución de llos diferentes datos.
+
+   
+• Desviación estándar ; esta permite medir la dispersión en el conjunto de datos que se este estudiando, y a su vez, se utiliza simultáneamente con la media para determinar los distintos intervalos estadísticos.
 
 <img width="567" alt="Captura de pantalla 2025-02-12 a la(s) 10 30 04 p m" src="https://github.com/user-attachments/assets/239539ac-2208-4448-96dd-05e678444470" />
 
