@@ -25,8 +25,8 @@ Obteniendo esta matriz, se suman los valores en diagonal, que se encuentran resl
 
 
 
-   IMAGEN 3 PAOLA A MANOOOOOOOOOOOOOOOOOO
 
+<img width="561" alt="Captura de pantalla 2025-02-12 a la(s) 9 17 33 p m" src="https://github.com/user-attachments/assets/945a16c7-3f36-4af1-b710-5c015bb20d21" />
 
    
 
