@@ -97,17 +97,39 @@ En cuanto al análisis, ambas gráficas muestra lo mismo, es decir una evolució
 
 
 
+
+
       
 2. ⁠En segundo lugar, se tenían dos señales, donde se observó si tenian correlación, y a su vez se determinó la representación gráfica y secuencial, lo que se visualiza en el archivo 
 
 Es necesario comprender estos conceptos  de estadísticos descriptivos antes de continuar;
-   - Los estadisticos descriptivos; se dividen en 
+• Frecuencia media; indica el promedio que se obtiene al dividir la suma del total de los datos que se tengan entre el total de los mismos, de manera similar, esta proporciona un punto de equilibrio en la distribución de llos diferentes datos.
+
+• Frecuencia mediana; este es el valor de la mitad de un conjunto de datos, en caso de haber un número total impar es el dato de la mitad, y si es par es el promedio de los valores centrales, y esta se usa cuando los datos se encuentran agrupados en intervalos.
+
+• Desviación estándar ; esta permite medir la dispersión en el conjunto de datos que se este estudiando, y a su vez, se utiliza simultáneamente con la media para determinar los distintos intervalos estadísticos.
+
+
+
+En cuanto al código de este punto, se importan las librerias de la misma forma que se mencionó anteriormente, y se establecieron los parámetros de la señal ,la frecuencia de muestreo (cuántas muestras por segundo se toman.), el periodo de muestreo(intervalo entre muestras.), y el vector de tiempo discreto (n rango de valores de 0 a 8 (9 muestras), indicando los instantes de muestreo), en este caso ambas señales tienen la misma frecuencia y se desfasann en 90 grados 
+
+
+
+
+
+
 
 
 
 
 
 Posterior a esta verificación del programador que se va a implementar, se procederá a descargar la señal como se mencionó anteriormente, asegurandose que tengan el mismo nombre como ya se ejemplificó, y de esta forma se guarda en un archivo (por ejemplo con nombre; analisis_emg.py)que se encuentre en la misma carpeta de el script y  ejecuta el script de la siguiente forma;  python analisis_emg.py. Para continuar, se interpretan los resultados obtenidos de esto;
+
+
+
+
+
+aqui la señal 
 
    
 3.Por último, se realizó la descarga de la señal del software physionet. En github se evidencian los dos archivos del mismo: .dat y .hea, donde se realizó lo siguiente;
@@ -121,11 +143,6 @@ Posterior a esta verificación del programador que se va a implementar, se proce
 
 3.4. Se analizaron los estadistícos descriptivos en función a la frecuencia, teniendo en cuenta que;
 
-• Frecuencia media; indica el promedio que se obtiene al dividir la suma del total de los datos que se tengan entre el total de los mismos, de manera similar, esta proporciona un punto de equilibrio en la distribución de llos diferentes datos.
-
-• Frecuencia mediana; este es el valor de la mitad de un conjunto de datos, en caso de haber un número total impar es el dato de la mitad, y si es par es el promedio de los valores centrales, y esta se usa cuando los datos se encuentran agrupados en intervalos.
-
-• Desviación estándar ; esta permite medir la dispersión en el conjunto de datos que se este estudiando, y a su vez, se utiliza simultáneamente con la media para determinar los distintos intervalos estadísticos.
 
 • Histograma: Este tipo de grafico, consiste en la representación de una variable cuantitativa por medio de barras, agrupando los datos, donde en el eje x se representan los intervalos de los datos y en el eje y evidencia la frecuencia de los datos en cierto intervalo, es la representación empirica de los datos observados en nuestro caso son las barras grises).
 
