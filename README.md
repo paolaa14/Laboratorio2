@@ -5,31 +5,49 @@ En este proyecto se realizan distintos cálculos en un determinado sistema, al c
       1.1. De manera inicial, vamos a explicar como realizar la convolución de el sistema h(n) y la señal x(n), donde se aplico la fórmula de la convolución discreta, donde h (n) tiene 7 valores y x(n) tiene 10 valores, posterior para sacar la señal y (n )resultante, se tiene que representar la operación como el producto de los polinomios para ver como se distribuyen los términos, es decir, para construir la parte de la ecuación de x(n), se nombró que el índice en la secuencia es el exponente del término, a su vez, para la parte de h(n)se realizó el mismo procedimiento anterior, lo cual se evidenciará en la imagen a continuación;
 
 
-<img width="615" alt="Captura de pantalla 2025-02-12 a la(s) 9 16 23 p m" src="https://github.com/user-attachments/assets/10a524f6-083c-4b5d-838f-068802a8fe35" />
 
 
 
-   
+   IMAGEN 1, PARTE INCIAL PAOLAAA A MANO
 
 
 
 Continuando, se multiplicaron los dos polinomios obtenidos anteriormente,lo que se conoce en señales o algebraicamente como aplicar una convolución discreta, y para resolver esto se planteó una matriz, donde la primera fila es el sistema h(n) y la primera columna es la señal x(n), para obtener los valores internos se multiplicaron los elementos correspondientes al sistema y señal mencionados, para ejemplificar; el primer elemento de x(n) es 5, entonces cada valor de h(n) se va a multiplicar por 5 y se va colocando en la tabla, y así de la misma forma hasta acabar la matriz, por último, al obtener la tabla que se evidenciará a continuación;
 
 
-<img width="561" alt="Captura de pantalla 2025-02-12 a la(s) 9 17 33 p m" src="https://github.com/user-attachments/assets/486ff3aa-d60c-4b70-b2fa-55c88c4fb908" />
+
+IMAGEN 2 PAOLA A MANOOOOOOOOOOOOOOOOOO
+
+
+
+
+Obteniendo esta matriz, se suman los valores en diagonal, que se encuentran resltados en verde, con el fin de obtener cada termino para la señal y (n) resultante, y de esta forma operamos lo que sea posible, y se obtiene la señal y(n) resultante de la convolución.
+
+
+
+   1.2. Se obtuvo la representación gráfica y secuencial a mano, esto para identificar la evolución de la señal en el tiempo, observando picos, crecimientos, o disminución en los patrones de la señal resultante, a su vez podemos ver como h(n), afecta a x(n), 
+
+
+
+   IMAGEN 3 PAOLA A MANOOOOOOOOOOOOOOOOOO
+
+
+   
+
+
+Para obtener la gráfica, tomé el valor más alto de los datos de la señal resultante y (n) que fue 95 y realice una escala en el eje y de 5 y se enumeraron los datos obtenidos y estos indices fueron colocalos de 1 en 1 en el eje x, de esta forma se hicieron los puntos observados. Ahora en cuanto al análisis, obtenemos que en los primeros valores de n cercanos a 0, la señal tiene valores pqeueños, es decir que los primeros términos de la convolución no generan una respuesta fuerte, a diferencia de n=5 o n=6, donde la señal crece de una forma más pronunciada, y el pico alto se obtiene alrededor de n=9 o 10, que esto quiere decir que en esta posición la suma d elos productos tiene la mayor contribución (como el sistema y la señal afectan a y (n)), después de este pico, se dismiuye otra vez la señal, indicando que la contribución de los valores fue más pequeña, por último cuando la gráfica esta por terminar se vuelve aproximar a 0, donde la convolución ha terminadoy no hay más contribución de los términos desplazados.
+
+De la misma manera, podemos evidenciar que el sistema h(n), actúo como un filtro o respuesta impulso, ya que si h( n)tiene cierto patrón se reflejará directamente en y (n), donde se evidencia como el sistema reacciona a una entrada básica (un pulso o puede ser una delta dirac (delta dirac es una entrada impulso)), a su vez, la gráfica muestra una señal transitoria que quiere decir que la convolución genera un crecimiento progresivo. 
+
+
+
+   
+   1.3. Se realizó el mismo procedimiento del item 1.1 pero esta vez usando python, lo que a su vez permite realizar una comparación y observar las dierencias o similitudes.
 
 
 
 
 
-
-La convolución usando sumatorias  a mano, lo cual se evidencia               en....... con este sistema y señal incial
-
-
-
-
-   1.2. Se obtuvo la representación gráfica y secuencial a mano, esto                para identificar.........
-      1.3. Se realizó el mismo procedimiento del item 1.1 pero esta vez                   usando python, lo que a su vez permite realizar una comparación.
       1.4. En este item, se obtuvo una representación gráfica y secuencial              en phyton, con el fin de..........
 
 Los códigos creados en este proyecto permiten observar la señal obtenida del sofware PHYSIONET, la cual es electroencefalografía (EEG), que en este caso mide por un método no invasivo los niveles de activación de distintas zonas del cerebro, evaluando  la actividad del cerebro. 
