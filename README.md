@@ -41,7 +41,7 @@ De la misma manera, podemos evidenciar que el sistema h(n), actúo como un filtr
    1.3. Se realizó el mismo procedimiento del item 1.1 pero esta vez usando python, lo que a su vez permite realizar una comparación y observar las dierencias o similitudes.
 
 
-AQUIIIIIIIIIIIIIIIII
+
 <img width="584" alt="Captura de pantalla 2025-02-12 a la(s) 7 25 13 p m" src="https://github.com/user-attachments/assets/bd26fb9c-2acf-4650-9d6c-f1e24629a964" />
 
 
@@ -49,6 +49,11 @@ AQUIIIIIIIIIIIIIIIII
 
 
  1.4. En este item, se obtuvo una representación gráfica y secuencial              en phyton, con el fin de..........
+
+
+
+AQUI
+
 
 Los códigos creados en este proyecto permiten observar la señal obtenida del sofware PHYSIONET, la cual es electroencefalografía (EEG), que en este caso mide por un método no invasivo los niveles de activación de distintas zonas del cerebro, evaluando  la actividad del cerebro. 
 
