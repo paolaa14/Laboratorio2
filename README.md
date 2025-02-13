@@ -9,18 +9,14 @@ En este proyecto se realizan distintos cálculos en un determinado sistema, al c
 
 
 
-   IMAGEN 1, PARTE INCIAL PAOLAAA A MANO
+   
 
 
 
 Continuando, se multiplicaron los dos polinomios obtenidos anteriormente,lo que se conoce en señales o algebraicamente como aplicar una convolución discreta, y para resolver esto se planteó una matriz, donde la primera fila es el sistema h(n) y la primera columna es la señal x(n), para obtener los valores internos se multiplicaron los elementos correspondientes al sistema y señal mencionados, para ejemplificar; el primer elemento de x(n) es 5, entonces cada valor de h(n) se va a multiplicar por 5 y se va colocando en la tabla, y así de la misma forma hasta acabar la matriz, por último, al obtener la tabla que se evidenciará a continuación;
 
 
-
-IMAGEN 2 PAOLA A MANOOOOOOOOOOOOOOOOOO
-
-
-
+<img width="561" alt="Captura de pantalla 2025-02-12 a la(s) 9 17 33 p m" src="https://github.com/user-attachments/assets/486ff3aa-d60c-4b70-b2fa-55c88c4fb908" />
 
 
 
