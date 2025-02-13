@@ -201,9 +201,23 @@ Es necesario comprender estos conceptos  de estadísticos descriptivos antes de 
 
 
 
+Los valores estadisticos se habían obtenido en el código anterior, por lo que en este ítem solo se analizaran los resultados; 
+
+- Frecuencia media (26.15 Hz):
+  Da el promedio de las frecuencias en la señal, en EEG, una media en este rango indica que la señal tiene aportes en las bandas beta (13-30 Hz) y posiblemente gamma (>30 Hz), quiere decir que esta en estado de alerta, concentración o actividad cognitiva intensa.
+-Frecuencia mediana (17.35 Hz):
+Es el punto medio de la distribución de frecuencias, al estar en el rango de beta baja, implica que la mayor parte de la energía está en frecuencias menores a 17.35 Hz, con una contribución importante de las ondas alfa (8-13 Hz) y beta baja. o sea  un estado de relajación con actividad mental moderada.
+-Desviación estándar (27.50 Hz):
+Mide la dispersión de las frecuencias respecto a la media, con un valor alto significa que la señal contiene una variedad de frecuencias, desde bajas hasta altas, y esto dice que la señal EEG no es monótona, sino que incluye múltiples bandas de frecuencia, lo cual es común en actividades cognitivas complejas.
+-Frecuencia mínima (0.00 Hz):
+La presencia de una componente en 0 Hz indica que la señal tiene un sesgo o componente de tendencia.
+Esto es normal en señales EEG y suele eliminarse con un filtro pasa-altas para evitar interferencias.
+-Frecuencia máxima (125.00 Hz):
+Es el límite superior de la señal, determinado por la frecuencia de Nyquist (mitad de la frecuencia de muestreo de 250 Hz), no hay aliasing, lo que significa que la señal está correctamente muestreada y no hay contaminación de frecuencias superiores a 125 Hz.
 
 
 <img width="733" alt="Figure 2025-02-12 235633" src="https://github.com/user-attachments/assets/398dc16a-59c2-409a-ad85-b28e53925e49" />
 
 
 
+El histograma muestra la distribución de las frecuencias presentes en la señal EEG, permitiendo analizar cómo se distribuye la energía en el espectro de frecuencia
