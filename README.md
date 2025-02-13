@@ -125,6 +125,9 @@ En cuanto al código de este punto, se importan las librerias de la misma forma 
 
 Posterior a esta verificación del programador que se va a implementar, se procederá a descargar la señal como se mencionó anteriormente, asegurandose que tengan el mismo nombre como ya se ejemplificó, y de esta forma se guarda en un archivo (por ejemplo con nombre; analisis_emg.py)que se encuentre en la misma carpeta de el script y  ejecuta el script de la siguiente forma;  python analisis_emg.py. Para continuar, se interpretan los resultados obtenidos de esto;
 
+<img width="719" alt="Figure 2025-02-12 222631 (0)" src="https://github.com/user-attachments/assets/9de48038-cafc-40db-8410-a0010976eb63" />
+
+<img width="729" alt="Figure 2025-02-12 222631 (1)" src="https://github.com/user-attachments/assets/efa04ba7-58d5-4aca-8cb7-21719b41f500" />
 
 
 
