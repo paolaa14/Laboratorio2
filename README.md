@@ -193,7 +193,8 @@ Es necesario comprender estos conceptos  de estadísticos descriptivos antes de 
 
 • Histograma: Este tipo de grafico, consiste en la representación de una variable cuantitativa por medio de barras, agrupando los datos, donde en el eje x se representan los intervalos de los datos y en el eje y evidencia la frecuencia de los datos en cierto intervalo, es la representación empirica de los datos observados en nuestro caso son las barras grises).
 
-<img width="733" alt="Figure 2025-02-12 230138" src="https://github.com/user-attachments/assets/4e9d5eb8-6459-489a-965e-eb8526ffeffc" />
+<img width="733" alt="Figure 2025-02-12 235633" src="https://github.com/user-attachments/assets/398dc16a-59c2-409a-ad85-b28e53925e49" />
+
 
 
 
