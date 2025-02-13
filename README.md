@@ -177,14 +177,14 @@ Viendo la periodicidad de la señal en la imagen, parece tener una frecuencia re
     - Se grafico la densidad espectral 
 <img width="728" alt="Figure 2025-02-12 234301" src="https://github.com/user-attachments/assets/8c975773-6429-4998-8520-82a9e5dcd89b" />
 
-      En el eje y, se evidencia notación científica, ya que los valores de potencia en EEG son demasiado pequeños, y esto evidencia que la mayor parte de la apotencia se sitúa en frecuencias bajas (menor a 3o Hz), la densidad espectral de potencia se mantiene baja, a partir de los 40 Hz, con fluctuaciones provinientes del ruido.
+En el eje y, se evidencia notación científica, ya que los valores de potencia en EEG son demasiado pequeños, y esto evidencia que la mayor parte de la apotencia se sitúa en frecuencias bajas (menor a 3o Hz), la densidad espectral de potencia se mantiene baja, a partir de los 40 Hz, con fluctuaciones provinientes del ruido.
 
 
  - Se aplico la transformada de fourier de la señal
 <img width="727" alt="Figure 2025-02-12 222631 (2)" src="https://github.com/user-attachments/assets/add3356d-a301-443f-a186-ca225b7a1c2a" />
 
 
-      En eje x,la frecuencia máxima es 125 Hz, que concuerda con la frecuencia de Nyquist (recordando que esta es la mitad de la frecuencia de muestreo), la mayor amplitud se concentra en bajas frecuencias, es decir se evidencian presencia de ondas delta, theta y alfa, además se observa un alto pico hacia 0 Hz, que quiere decir una parte de la tendencia de señal originial. 
+En eje x,la frecuencia máxima es 125 Hz, que concuerda con la frecuencia de Nyquist (recordando que esta es la mitad de la frecuencia de muestreo), la mayor amplitud se concentra en bajas frecuencias, es decir se evidencian presencia de ondas delta, theta y alfa, además se observa un alto pico hacia 0 Hz, que quiere decir una parte de la tendencia de señal originial. 
 
 
 3.4. Se analizaron los estadistícos descriptivos en función a la frecuencia, teniendo en cuenta que;
