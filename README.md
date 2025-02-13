@@ -132,7 +132,7 @@ Posterior a esta verificación del programador que se va a implementar, se proce
 
 
 
-aqui la señal 
+
 
    
 3.Por último, se realizó la descarga de la señal del software physionet. En github se evidencian los dos archivos del mismo: .dat y .hea, donde se realizó lo siguiente;
@@ -143,6 +143,9 @@ aqui la señal
    
 
    3.3. Aplicando la transformada de fourier de la señal, se graficó la transformada y la densidad espectral.....
+
+   <img width="728" alt="Figure 2025-02-12 222631 (3)" src="https://github.com/user-attachments/assets/afcfeefc-93af-46a0-910a-77c04e11e93b" />
+
 
 3.4. Se analizaron los estadistícos descriptivos en función a la frecuencia, teniendo en cuenta que;
 
